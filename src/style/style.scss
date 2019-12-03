@@ -1,0 +1,105 @@
+// @import "react-alice-carousel/src/alice-carousel.scss";
+.header {
+  background: #fff;
+  width: 960px;
+  min-height: 100px;
+  margin: 15px auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+
+  .header_logo {
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+  }
+
+  .header_nav {
+    margin: 5px 0 auto 0;
+
+    >li {
+      padding: 20px;
+    }
+  }
+}
+
+a {
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+}
+
+h1 {
+  text-align: center;
+  box-shadow: 5px -1px 7px 0 #ccc;
+  font-weight: 600;
+}
+
+table {
+  text-align: center;
+  padding: 10px;
+
+  img {
+    width: 150px;
+  }
+}
+
+.img_style {
+  width: 100%;
+  object-fit: cover;
+}
+
+.CarouselItem{
+  p{
+    color: #000;
+  }
+  h3{
+    color: #000;
+  }
+}
+
+.productPage {
+  p {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+  }
+
+  .title {
+    box-shadow: 5px -1px 7px 0 #ccc;
+    font-weight: 600;
+  }
+
+  .price {
+    font-size: 20px;
+    font-style: italic;
+  }
+}
+
+.carousel {
+  width: 960px;
+  height: 500px;
+  margin: auto;
+}
+
+.products_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card_product {
+  text-align: center;
+  width: 400px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.container{
+margin: 0 auto;
+form{
+  justify-content: center;
+}
+}
